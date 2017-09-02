@@ -1,29 +1,40 @@
 'use strict';
+var gulp         = require('gulp');
+var sass         = require('gulp-sass');
+var sourcemaps   = require('gulp-sourcemaps');
+var clean        = require('gulp-clean');
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var notify = require('gulp-notify');
-var uglify = require('gulp-uglify');
-var concat  = require('gulp-concat');
+var input = './public/assets/sass/**/*.scss';
+var output = './public/css';
 
-gulp.task('sass', function () {
-  return gulp.src('./public/assets/sass/**/*.scss')
-    .pipe(sass())
-    .pipe(gulp.dest('./public/css'))
-    .pipe(notify("El SASS se ha compilado correctamente!"));
+gulp.task('prod',  function () {
+  return gulp
+    .src(input)
+    .pipe(sass({
+      errLogToConsole: true,
+      outputStyle: 'compressed'
+    }).on('error', sass.logError))
+    .pipe(gulp.dest(output));
 });
 
-gulp.task('js', function() {
-  gulp.src('./public/assets/js/**/*.js')
-    .pipe(uglify())
-    .pipe(concat('script.js'))
-    .pipe(gulp.dest('public/js'))
-    .pipe(notify("El JS se ha compilado correctamente!"));
+gulp.task('dev', function () {
+  return gulp
+    .src(input)
+    .pipe(sourcemaps.init())
+    .pipe(sass({
+      errLogToConsole: true,
+      outputStyle: 'nested'
+    }).on('error', sass.logError))
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest(output));
 });
 
 gulp.task('watch', function () {
-  gulp.watch('./public/assets/sass/**/*.scss', ['sass']);
-  gulp.watch('./public/assets/js/**/*.js', ['js']);
+  return gulp
+    .watch(input, ['dev'])
+    .on('change', function(event) {
+      console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+    });
 });
 
-gulp.task('default', ['sass', 'js']);
+gulp.task('default', ['prod']);
