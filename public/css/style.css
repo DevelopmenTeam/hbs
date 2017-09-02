@@ -19010,9 +19010,8 @@ section .contact i {
   background-color: #6d7275; }
 
 .creative-lp .hm-gradient .full-bg-img {
-  background: -webkit-linear-gradient(45deg, rgba(153, 122, 226, 0.6), rgba(3, 3, 4, 0.6) 100%);
-  background: -webkit-gradient(linear, 45deg, from(rgba(153, 122, 226, 0.6)), to(rgba(3, 3, 4, 0.6)));
-  background: linear-gradient(to 45deg, rgba(153, 122, 226, 0.6), rgba(3, 3, 4, 0.6) 100%); }
+  background: -webkit-linear-gradient(45deg, rgba(0, 105, 92, 0.55), rgba(255, 136, 0, 0.75) 100%);
+  background: linear-gradient(45deg, rgba(0, 105, 92, 0.55), rgba(255, 136, 0, 0.75) 100%); }
 
 .creative-lp .md-pills.pills-primary .nav-item .nav-link.active {
   background-color: #00bcd4; }
