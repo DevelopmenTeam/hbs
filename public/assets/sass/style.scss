@@ -2,6 +2,11 @@
 @import "bootstrap/bootstrap";
 @import "components/mdb";
 
-/** Custom **/
+/** Custom Global **/
+@import "global/header";
+@import "global/footer";
+
+/** Pages HBS **/
+@import "global/footer";
 
 
