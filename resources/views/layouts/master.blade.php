@@ -22,7 +22,7 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 
 	<!-- Bootstrap core CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
 
 	<!-- Material Design Bootstrap -->
 	<link href="css/mdb.min.css" rel="stylesheet">
