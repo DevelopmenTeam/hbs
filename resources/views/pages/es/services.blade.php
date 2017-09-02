@@ -14,7 +14,7 @@
 
     <div class="row text-center smooth-scroll">
 
-      @foreach(config('services_hbs.services.items') as $key => $item)
+      @foreach(config('services_hbs.es.items') as $key => $item)
         <div class="col-lg-3 col-md-12 mb-1 wow fadeIn" data-wow-delay="0.4s">
 
           <div class="view overlay hm-white-slight z-depth-1 z-depth-2">

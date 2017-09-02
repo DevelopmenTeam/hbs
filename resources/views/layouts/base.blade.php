@@ -17,7 +17,7 @@
 	<meta property="url" content="http://hbs.magma-soft.at/index.php">
 	<meta property="site_name" content="http://hbs.magma-soft.at/index.php">
 	<meta name="author" content="Luis Solórzano">
-	<meta name="author" content="Gerardo Hernandez">
+	<meta name="author" content="Gerardo Hernández">
 	<meta name="author" content="Juan Santovenia">
 
 	<!-- /Meta OG -->
@@ -48,6 +48,7 @@
 
 	@include('pages.es.services', [])
 
+	@include('pages.es.team', [])
 	{{--<div class="container">--}}
 
 		{{--<!-- Section: About -->--}}
@@ -203,11 +204,6 @@
 
 	{{--<div class="container">--}}
 
-
-		<!-- Projects section v.2 -->
-		<!-- Services !-->
-		<!-- Projects section v.2 -->
-
 		{{--<hr class="between-sections">--}}
 
 		{{--<!-- Section: Details -->--}}
@@ -337,107 +333,6 @@
 				{{--<!-- First row -->--}}
 			{{--</div>--}}
 		{{--</div>--}}
-	{{--</div>--}}
-
-	{{--<div class="container">--}}
-
-		{{--<!-- Section: Team v.1 -->--}}
-		{{--<section class="section team-section pb-5">--}}
-
-			{{--<!-- Section heading -->--}}
-			{{--<h3 class="text-center mb-5 mt-5 pt-5 font-up font-bold grey-text-2 wow fadeIn" data-wow-delay="0.2s">Our amazing team</h3>--}}
-			{{--<!-- Section description -->--}}
-			{{--<p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>--}}
-
-			{{--<!-- Grid row -->--}}
-			{{--<div class="row text-center">--}}
-
-				{{--<!-- Grid column -->--}}
-				{{--<div class="col-lg-3 col-md-6 mb-r">--}}
-
-					{{--<div class="avatar">--}}
-						{{--<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg" class="rounded-circle z-depth-1" alt="First sample avatar image">--}}
-					{{--</div>--}}
-					{{--<h4>Anna Deynah</h4>--}}
-					{{--<h6 class="font-bold indigo-text">Web Designer</h6>--}}
-					{{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.</p>--}}
-
-					{{--<!-- Facebook -->--}}
-					{{--<a class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a>--}}
-					{{--<!-- Twitter -->--}}
-					{{--<a class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a>--}}
-					{{--<!-- Instagram -->--}}
-					{{--<a class="icons-sm ins-ic"><i class="fa fa-instagram"> </i></a>--}}
-
-				{{--</div>--}}
-				{{--<!-- Grid column -->--}}
-
-				{{--<!-- Grid column -->--}}
-				{{--<div class="col-lg-3 col-md-6 mb-r">--}}
-
-					{{--<div class="avatar">--}}
-						{{--<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(32).jpg" class="rounded-circle z-depth-1" alt="Second sample avatar image">--}}
-					{{--</div>--}}
-					{{--<h4>John Doe</h4>--}}
-					{{--<h6 class="font-bold indigo-text">Web Developer</h6>--}}
-					{{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.</p>--}}
-
-					{{--<!-- Linkedin -->--}}
-					{{--<a class="icons-sm li-ic"><i class="fa fa-linkedin"> </i></a>--}}
-					{{--<!-- Facebook -->--}}
-					{{--<a class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a>--}}
-					{{--<!-- Dribbble -->--}}
-					{{--<a class="icons-sm dribbble-ic"><i class="fa fa-dribbble"> </i></a>--}}
-
-				{{--</div>--}}
-				{{--<!-- Grid column -->--}}
-
-				{{--<!-- Grid column -->--}}
-				{{--<div class="col-lg-3 col-md-6 mb-r">--}}
-
-					{{--<div class="avatar">--}}
-						{{--<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" class="rounded-circle z-depth-1" alt="Third sample avatar image">--}}
-					{{--</div>--}}
-					{{--<h4>Maria Kate</h4>--}}
-					{{--<h6 class="font-bold indigo-text">Photographer</h6>--}}
-					{{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.</p>--}}
-
-					{{--<!-- Facebook -->--}}
-					{{--<a class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a>--}}
-					{{--<!-- Pinterest -->--}}
-					{{--<a class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a>--}}
-					{{--<!-- Email -->--}}
-					{{--<a class="icons-sm email-ic"><i class="fa fa-envelope-o"> </i></a>--}}
-
-				{{--</div>--}}
-				{{--<!-- Grid column -->--}}
-
-				{{--<!-- Grid column -->--}}
-				{{--<div class="col-lg-3 col-md-6 mb-r">--}}
-
-					{{--<div class="avatar">--}}
-						{{--<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class="rounded-circle z-depth-1" alt="Fourth sample avatar image">--}}
-					{{--</div>--}}
-					{{--<h4>Tom Williams</h4>--}}
-					{{--<h6 class="font-bold indigo-text">Front-end Developer</h6>--}}
-					{{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.</p>--}}
-
-					{{--<!-- Google + -->--}}
-					{{--<a class="icons-sm gplus-ic"><i class="fa fa-google-plus"> </i></a>--}}
-					{{--<!-- Facebook -->--}}
-					{{--<a class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a>--}}
-					{{--<!-- GitHub -->--}}
-					{{--<a class="icons-sm git-ic"><i class="fa fa-github"> </i></a>--}}
-
-				{{--</div>--}}
-				{{--<!-- Grid column -->--}}
-
-			{{--</div>--}}
-			{{--<!-- Grid row -->--}}
-
-		{{--</section>--}}
-		{{--<!-- Section: Team v.1 -->--}}
-
 	{{--</div>--}}
 
 	{{--<!-- Streak -->--}}
