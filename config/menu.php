@@ -17,30 +17,46 @@ return [
     'items' => [
       [
         'text' => 'Inicio',
-        'icon' => 'fa fa-home',
+        'icon' => 'fa fa-home icon-menu--color',
+        'url' => '#'
+      ],
+      [
+        'text' => 'Acerca de Nosotros',
+        'icon' => 'fa fa-podcast icon-menu--color',
         'url' => '#'
       ],
       [
         'text' => 'Servicios',
-        'icon' => 'fa fa-cog',
+        'icon' => 'fa fa-cogs icon-menu--color',
         'url' => '#'
       ],
       [
         'text' => 'Equipo',
-        'icon' => 'fa fa-code',
+        'icon' => 'fa fa-users icon-menu--color',
         'url' => '#'
       ],
       [
-        'text' => 'Contacto',
-        'icon' => 'fa fa-envelope',
-        'url' => '#'
-      ],
-      [
-        'text' => 'Acerca de',
-        'icon' => 'fa fa-info',
+        'text' => 'Contáctenos',
+        'icon' => 'fa fa-envelope icon-menu--color',
         'url' => '#'
       ],
     ],
+
+    'social' => [
+      [
+        'icon' => 'fa fa-home',
+        'url' => '#'
+      ],
+      [
+        'icon' => 'fa fa-cog',
+        'url' => '#'
+      ],
+      [
+        'icon' => 'fa fa-code',
+        'url' => '#'
+      ],
+    ],
+
   ],
 
 ];
