@@ -18,17 +18,9 @@
 	<meta property="og:site_name" content="thummim.magma-soft.at">
 	<!-- /Meta OG -->
 
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-
-	<!-- Bootstrap core CSS -->
-	<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-
 	<!-- Material Design Bootstrap -->
-	<link href="css/mdb.min.css" rel="stylesheet">
-
-	<!-- Your custom styles (optional) -->
 	<link href="css/style.css" rel="stylesheet">
+
 	<style>
 		@media (max-width: 740px) {
 			.full-height,
