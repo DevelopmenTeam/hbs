@@ -24,7 +24,7 @@
 
 
 	<!-- Material Design Bootstrap -->
-	<link href="{{ asset('css/style.css') }}" rel="stylesheet">g
+	<link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
 	<style>
 		@media (max-width: 740px) {
