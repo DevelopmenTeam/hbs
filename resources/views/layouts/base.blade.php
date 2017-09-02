@@ -11,12 +11,17 @@
 	<title>HBS Consultores Turísticos</title>
 
 	<!-- Meta OG -->
-	<meta property="og:title" content="HBS Consultores Turisticos">
-	<meta property="og:description" content="HBS Consultores Turisticos">
-	<meta property="og:image" content="https://mdbootstrap.com/img/Live/MDB/creative-agency.jpg">
-	<meta property="og:url" content="https://thummim.magma-soft.at">
-	<meta property="og:site_name" content="thummim.magma-soft.at">
+	<meta property="title" content="HBS Consultores Turisticos">
+	<meta property="description" content="HBS Consultores Turisticos">
+	<meta property="image" content="http://hbs.magma-soft.at/images/hbs.png">
+	<meta property="url" content="http://hbs.magma-soft.at/index.php">
+	<meta property="site_name" content="http://hbs.magma-soft.at/index.php">
+	<meta name="author" content="Luis Solórzano">
+	<meta name="author" content="Gerardo Hernandez">
+	<meta name="author" content="Juan Santovenia">
+
 	<!-- /Meta OG -->
+
 
 	<!-- Material Design Bootstrap -->
 	<link href="css/style.css" rel="stylesheet">
