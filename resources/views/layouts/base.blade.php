@@ -49,6 +49,8 @@
 	@include('pages.es.services', [])
 
 	@include('pages.es.team', [])
+
+	@include('pages.es.contant', [])
 	{{--<div class="container">--}}
 
 		{{--<!-- Section: About -->--}}

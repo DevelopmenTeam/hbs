@@ -50,7 +50,7 @@ Expositor en diferentes eventos a nivel nacional e internacional. Ha publicado d
       [
         'name' => 'Idania Mercedes Bolaños Cerda.',
         'pro_title' => 'MSc.',
-        'position' => 'Publicidad y Mercadeo.',
+        'position' => 'Publicidad y Ventas.',
         'age' => '36',
         'academic_studies' => [
           'Licenciada en Gestión de Empresas Turísticas',
