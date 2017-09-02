@@ -1,7 +1,12 @@
-@import "component/awesome";
+@import "components/awesome";
 @import "bootstrap/bootstrap";
-@import "component/mdb";
+@import "components/mdb";
 
-/** Custom **/
+/** Custom Global **/
+@import "global/header";
+@import "global/footer";
+
+/** Pages HBS **/
+@import "global/footer";
 
 
