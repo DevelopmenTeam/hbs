@@ -2,8 +2,7 @@
   <section class="section team-section pb-5">
 
     <!-- Section heading -->
-    <h3 class="text-center mb-5 mt-5 pt-5 font-up font-bold grey-text-2 wow fadeIn" data-wow-delay="0.2s">Our amazing
-      team</h3>
+    <h3 class="text-center mb-5 mt-5 pt-5 font-up font-bold grey-text-2 wow fadeIn" data-wow-delay="0.2s">Nuestro Equipo</h3>
     <!-- Section description -->
     <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam
       iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus
