@@ -19626,6 +19626,9 @@ footer.page-footer h2 {
 .navbar {
   border-radius: 0px; }
 
+.navbar--color i {
+  color: white; }
+
 .icon-menu--color {
   color: #0081cb; }
 
