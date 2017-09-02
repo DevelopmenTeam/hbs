@@ -14,7 +14,7 @@ return [
   |
   */
 
-  'services' => [
+  'es' => [
     'items' =>[
       [
         'image' => 'https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2812%29.jpg',
