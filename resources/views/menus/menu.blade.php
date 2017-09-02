@@ -18,11 +18,14 @@
 
       <!-- Social Icon  -->
       <ul class="navbar-nav nav-flex-icons">
-        @foreach(config('menu.es.social') as $social)
+        <li class="nav-item">
+          <a class="nav-link" href="#languages">Lenguaje: <img src="{{ asset('assets/media/img/languages/spain.png') }}" style="width: 20px;"/></a>
+        </li>
+        {{--@foreach(config('menu.es.social') as $social)
           <li class="nav-item">
             <a class="nav-link" href="{{ $social['url'] }}"><i class="{{ $item['icon'] }}"></i></a>
           </li>
-        @endforeach
+        @endforeach--}}
       </ul>
     </div>
   </div>

@@ -24,7 +24,7 @@
 
 
 	<!-- Material Design Bootstrap -->
-	<link href="css/style.css" rel="stylesheet">
+	<link href="{{ asset('css/style.css') }}" rel="stylesheet">g
 
 	<style>
 		@media (max-width: 740px) {
@@ -481,65 +481,11 @@
 <!-- Footer -->
 
 <!-- JQuery -->
-<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="js/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="js/mdb.min.js"></script>
-<script>
-  //Animation init
-  new WOW().init();
-
-  //Modal
-  $('#myModal').on('shown.bs.modal', function () {
-    $('#myInput').focus()
-  })
-
-  // Material Select Initialization
-  $(document).ready(function() {
-    $('.mdb-select').material_select();
-  });
-
-</script>
-
-<script>
-
-  var vid = document.getElementById("bgvid");
-  var pauseButton = document.querySelector("#polina button");
-
-  if (window.matchMedia('(prefers-reduced-motion)').matches) {
-    vid.removeAttribute("autoplay");
-    vid.pause();
-    pauseButton.innerHTML = "Paused";
-  }
-
-  function vidFade() {
-    vid.classList.add("stopfade");
-  }
-
-  vid.addEventListener('ended', function()
-  {
-    // only functional if "loop" is removed
-    vid.pause();
-    // to capture IE10
-    vidFade();
-  });
-
-
-  pauseButton.addEventListener("click", function() {
-    vid.classList.toggle("stopfade");
-    if (vid.paused) {
-      vid.play();
-      pauseButton.innerHTML = "Pause";
-    } else {
-      vid.pause();
-      pauseButton.innerHTML = "Paused";
-    }
-  })
-
-</script>
+<script src="{{ asset('js/jquery-3.1.1.min.js') }}"></script>
+<script src="{{ asset('js/popper.min.js') }}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/mdb.min.js') }}"></script>
+<script src="{{ asset("js/hbs/loader.js") }}"></script>
 
 </body>
 
