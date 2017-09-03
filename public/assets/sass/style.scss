@@ -1,15 +1,18 @@
-@import "components/awesome";
+/** Bootstrap **/
 @import "bootstrap/bootstrap";
+
 /** Material Design Style **/
 @import "components/mdb";
+@import "components/animations";
+
 /** Material DesignIcons **/
 @import "components/material_design_icons";
 
 /** Custom Global **/
 @import "global/header";
 @import "global/footer";
+@import "global/modal";
 
 /** Pages HBS **/
-@import "global/footer";
-
+@import "pages/services";
 

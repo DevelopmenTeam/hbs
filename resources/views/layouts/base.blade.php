@@ -10,17 +10,17 @@
 
 	<title>HBS Consultores Turísticos</title>
 
-	<!-- Meta OG -->
+	<!-- Meta Data -->
 	<meta property="title" content="HBS Consultores Turisticos">
 	<meta property="description" content="HBS Consultores Turisticos">
-	<meta property="image" content="http://hbs.magma-soft.at/images/hbs.png">
+	<meta property="image" content="{{ asset('assets/media/logo/header_hbs.png') }}">
 	<meta property="url" content="http://hbs.magma-soft.at/index.php">
 	<meta property="site_name" content="http://hbs.magma-soft.at/index.php">
 	<meta name="author" content="Luis Solórzano">
 	<meta name="author" content="Gerardo Hernández">
 	<meta name="author" content="Juan Santovenia">
 
-	<!-- /Meta OG -->
+	<!-- /Meta Data -->
 
 
 	<!-- Material Design Bootstrap -->
@@ -44,8 +44,6 @@
 @include('globals.header', [])
 
 <!-- Main content -->
-<main>
-
 	@include('pages.es.services', [])
 
 	@include('pages.es.team', [])
@@ -474,8 +472,6 @@
 		{{--<!-- Section: Contact v.2 -->--}}
 
 	{{--</div>--}}
-
-</main>
 <!-- Main content -->
 
 <!-- Footer -->
@@ -483,11 +479,13 @@
 <!-- Footer -->
 
 <!-- JQuery -->
-<script src="{{ asset('js/jquery-3.1.1.min.js') }}"></script>
-<script src="{{ asset('js/popper.min.js') }}"></script>
-<script src="{{ asset('js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('js/mdb.min.js') }}"></script>
+<script src="{{ asset('js/lib/jquery-3.1.1.min.js') }}"></script>
+<script src="{{ asset('js/lib/popper.min.js') }}"></script>
+<script src="{{ asset('js/lib/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/lib/mdb.min.js') }}"></script>
+<script src="{{ asset("js/lib/matchHeight.js") }}"></script>
 <script src="{{ asset("js/hbs/loader.js") }}"></script>
+<script src="{{ asset("js/hbs/match_height.js") }}"></script>
 
 </body>
 

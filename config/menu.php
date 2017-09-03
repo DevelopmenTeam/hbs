@@ -18,27 +18,27 @@ return [
       [
         'text' => 'Inicio',
         'icon' => 'fa fa-home icon-menu--color',
-        'url' => '#'
+        'url' => '#home_hbs'
       ],
       [
         'text' => 'Acerca de Nosotros',
         'icon' => 'fa fa-podcast icon-menu--color',
-        'url' => '#'
+        'url' => '#about'
       ],
       [
         'text' => 'Servicios',
         'icon' => 'fa fa-cogs icon-menu--color',
-        'url' => '#'
+        'url' => '#services'
       ],
       [
         'text' => 'Equipo',
         'icon' => 'fa fa-users icon-menu--color',
-        'url' => '#'
+        'url' => '#team'
       ],
       [
         'text' => 'Contáctenos',
         'icon' => 'fa fa-envelope icon-menu--color',
-        'url' => '#'
+        'url' => '#contact'
       ],
     ],
 

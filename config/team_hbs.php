@@ -26,7 +26,7 @@ return [
           'Especialización en Geografía Económica.',
           'Máster en Gestión del Turismo.',
           'Experto Universitario en  Gestión de la Calidad en MIPYMES Turísticas.',
-          'Postgrados en Geografía del Paisaje, Regionalización Económica, Evaluación de Impactos Ambientales, Turismo Sostenible y Planificación Estratégica.'
+          'Postgrados en Geografía del Paisaje, Regionalización Económica, Evaluación de Impactos Ambientales, Turismo Sostenible y Planificación Estratégica.',
         ],
         'mini-experience' => 'Treinta y seis años de docencia a nivel de grado y postgrado e investigación universitaria, y como miembro de comisiones curriculares y de planificación académica...',
         'experience' => 'Treinta y seis años de docencia a nivel de grado y postgrado e investigación universitaria, y como miembro de comisiones curriculares y de planificación académica. Ha sido director a nivel de departamento y coordinador de maestría.
