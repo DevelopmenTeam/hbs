@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="#">
-      HBS Consultores Turisticos
+      HBS Consultores Tur&iacute;sticos
       {{--<img src="{{ asset("img/logo.png") }}">--}}
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">

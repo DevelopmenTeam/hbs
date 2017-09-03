@@ -1,12 +1,11 @@
-<header>
-
+<header id="home_hbs">
   <!-- Navbar -->
   @include('menus.menu', [])
 
   <!-- Video -->
   <section class="view intro-video">
-    <video poster="https://mdbootstrap.com/img/Photos/Horizontal/Things/full%20page/img%20%287%29.jpg" playsinline autoplay muted loop>
-      <source src="https://mdbootstrap.com/img/video/Lines.mp4" type="video/mp4">
+    <video poster="{{ asset('assets/media/img/img1.jpg') }}" playsinline autoplay muted loop>
+      <source src="{{ asset('assets/media/video/Lines.mp4') }}" type="video/mp4">
     </video>
     <div class="hm-gradient">
       <div class="full-bg-img">
