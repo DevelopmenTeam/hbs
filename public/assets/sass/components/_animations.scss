@@ -18,6 +18,38 @@
 	animation-timing-function: linear;
 }
 
+.progress .indeterminate:before {
+	-webkit-animation: indeterminate 2.1s cubic-bezier(.65,.815,.735,.395) infinite;
+	animation: indeterminate 2.1s cubic-bezier(.65,.815,.735,.395) infinite;
+}
+
+.progress .indeterminate:after, .progress .indeterminate:before {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+	left: 0;
+	will-change: left,right;
+	top: 0;
+	bottom: 0;
+}
+
+.progress .indeterminate:after {
+	-webkit-animation: indeterminate-short 2.1s cubic-bezier(.165,.84,.44,1) infinite;
+	animation: indeterminate-short 2.1s cubic-bezier(.165,.84,.44,1) infinite;
+	-webkit-animation-delay: 1.15s;
+	animation-delay: 1.15s;
+}
+
+.progress .indeterminate:after, .progress .indeterminate:before {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+	left: 0;
+	will-change: left,right;
+	top: 0;
+	bottom: 0;
+}
+
 @-ms-keyframes spin {
 	from { -ms-transform: rotate(0deg); }
 	to { -ms-transform: rotate(360deg); }

@@ -21,9 +21,9 @@
 
   <!-- /Meta Data -->
 
-
   <!-- Material Design Bootstrap -->
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+	{{--<link href="{{ asset('assets/sass/components/compiled.min.css') }}" rel="stylesheet">--}}
 
   <style>
     @media (max-width: 740px) {
@@ -39,6 +39,9 @@
 </head>
 
 <body class="creative-lp">
+<div class="loader_hbs">
+
+</div>
 <!-- Navigation & Intro -->
 @include('globals.header', [])
 

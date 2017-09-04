@@ -34,6 +34,11 @@
   </div>
 </div>
 
+<div class="progress primary-color-dark">
+  <div class="indeterminate"></div>
+</div>
+
+
 <div class="modal fade modal--opacity" data-wow-delay="0.4s" id="modal_sercices" tabindex="-1" role="dialog">
   <div class="modal-dialog cascading-modal" role="document">
     <!--Content-->
