@@ -5,7 +5,7 @@
   var $letterColor = $('header nav.navbar a');
   $headerColor.addClass('navbar--color');
   $letterColor.css({'color':'white'});
-  $headerColor.css({'border-bottom': '1px solid rgba(240, 248, 255, 0.35)'});
+  // $headerColor.css({'border-bottom': '1px solid rgba(240, 248, 255, 0.35)'});
 
 
 
@@ -18,7 +18,7 @@
     console.log(scrollTop);
     if (scrollTop > 56) {
       $headerColor.css({'background':'white'});
-      $headerColor.css({'border-bottom': '1px solid rgba(240, 248, 255, 0.35);'});
+      // $headerColor.css({'border-bottom': '1px solid rgba(240, 248, 255, 0.35);'});
       $letterColor.css({'color':'#004c99'});
       $headerColor.removeClass('navbar--color');
     } else {
