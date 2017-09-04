@@ -7,7 +7,8 @@
     RewriteCond %{HTTP:X-Forwarded-Proto} =http [OR]
     RewriteCond %{HTTP:X-Forwarded-Proto} =""
     RewriteCond %{HTTPS} !=on
-    RewriteRule ^ https://hbs.magma-soft.com [L,R=301]
+    RewriteRule ^ https://hbs.magma-soft.at [L,R=301]
+    Redirect http://hbs.magma-soft.at/index.php https://hbs.magma-soft.at/index.php
 
     # Redirect Trailing Slashes If Not A Folder...
     RewriteCond %{REQUEST_FILENAME} !-d
