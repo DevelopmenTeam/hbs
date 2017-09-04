@@ -1,5 +1,5 @@
 <footer class="page-footer center-on-small-only">
-  <div class="container-fluid">
+{{--  <div class="container-fluid">
     <div class="row mb-2 wow fadeIn" data-wow-delay="0.3s">
       <div class="col-md-12 text-center smooth-scroll">
         <i class="fa fa-users fa-4x light-green-text-2 pt-4 pb-3"></i>
@@ -57,7 +57,7 @@
         </ul>
       </div>
     </div>
-  </div>
+  </div>--}}
 
   <div class="footer-copyright wow fadeIn" data-wow-delay="0.3s">
     <div class="container-fluid">
