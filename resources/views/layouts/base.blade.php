@@ -22,8 +22,7 @@
   <!-- /Meta Data -->
 
   <!-- Material Design Bootstrap -->
-  <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-	{{--<link href="{{ asset('assets/sass/components/compiled.min.css') }}" rel="stylesheet">--}}
+  {!! Html::style('css/style.css') !!}
 
   <style>
     @media (max-width: 740px) {
@@ -481,13 +480,13 @@
 <!-- Footer -->
 
 <!-- JQuery -->
-<script src="{{ asset('js/lib/jquery-3.1.1.min.js') }}"></script>
-<script src="{{ asset('js/lib/popper.min.js') }}"></script>
-<script src="{{ asset('js/lib/bootstrap.min.js') }}"></script>
-<script src="{{ asset('js/lib/mdb.min.js') }}"></script>
-<script src="{{ asset("js/lib/matchHeight.js") }}"></script>
-<script src="{{ asset("js/hbs/loader.js") }}"></script>
-<script src="{{ asset("js/hbs/match_height.js") }}"></script>
+{!! Html::script('js/lib/jquery-3.1.1.min.js') !!}
+{!! Html::script('js/lib/popper.min.js') !!}
+{!! Html::script('js/lib/bootstrap.min.js') !!}
+{!! Html::script('js/lib/mdb.min.js') !!}
+{!! Html::script('js/lib/matchHeight.js') !!}
+{!! Html::script('js/hbs/loader.js') !!}
+{!! Html::script('js/hbs/match_height.js') !!}
 
 </body>
 
