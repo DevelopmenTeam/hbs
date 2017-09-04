@@ -48,7 +48,7 @@
 
 	@include('pages.es.team', [])
 
-	@include('pages.es.contant', [])
+	@include('pages.es.contact', [])
 	{{--<div class="container">--}}
 
 		{{--<!-- Section: About -->--}}
