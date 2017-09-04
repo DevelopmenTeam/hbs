@@ -4,20 +4,8 @@
     </IfModule>
 
     RewriteEngine On
-
-    RewriteCond %{HTTP_HOST} ^(hbs\.)?magma-soft\.at [NC]
-    RewriteRule .* - [E=SERVER_ENV:production]
-
-    # Force SSL if SERVER_ENV is production
-    RewriteCond %{ENV:SERVER_ENV} ^production$
-    RewriteCond %{SERVER_PORT} 80
-    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-    # Force www. if SERVER_ENV is production
-    RewriteCond %{ENV:SERVER_ENV} ^production$
-    RewriteCond %{HTTP_HOST} .
-    RewriteCond %{HTTP_HOST} !^hbs\. [NC]
-    RewriteRule ^ https://hbs.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://hbs.magma-soft.com/ [L,R=301]
 
     # Redirect Trailing Slashes If Not A Folder...
     RewriteCond %{REQUEST_FILENAME} !-d
