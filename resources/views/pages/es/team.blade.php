@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="team">
   <section class="section team-section pb-5">
 
     <!-- Section heading -->
@@ -12,7 +12,7 @@
     <div class="row text-center">
 
       <!-- Grid column -->
-      @foreach(config('team_hbs.es.items') as $item)
+      @foreach(config('team_hbs.es.items') as $key => $item)
         <div class="col-lg-4 col-md-6 mb-r">
 
           <div class="avatar">
@@ -22,8 +22,9 @@
           <h4>{{ $item['pro_title'] }} {{ $item['name'] }}</h4>
           <h6 class="font-bold indigo-text">{{ $item['position'] }}</h6>
           <p>{{ $item['mini-experience'] }}</p><br/>
-          <a href="#details" class="btn btn-rounded btn-light-green-2"><i class="fa fa-clone left"></i>Learn
-            more</a><br/>
+          <input type="hidden" value="{{ $key }},team"/>
+          <a href="#details" data-toggle="modal" data-target="#team_modal" class="btn btn-rounded btn-light-green-2 btn-hbs-team">
+            <i class="fa fa-clone left"></i>Leer más</a><br/>
 
           @foreach($item['social'] as $social)
             <a class="icons-sm fb-ic" href="{{ $social['url'] }}"><i class="{{ $social['icon'] }}"> </i></a>
@@ -37,3 +38,5 @@
 
   </section>
 </div>
+
+@include('modals.team_modal', []);
