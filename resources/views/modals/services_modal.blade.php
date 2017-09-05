@@ -1,4 +1,6 @@
-<div class="modal fade modal--opacity" data-wow-delay="0.4s" id="services_modal" tabindex="-1" role="dialog">
+@extends('layouts.base')
+@section('modal')
+<div class="modal fade show modal--opacity" data-wow-delay="0.4s" id="services_modal" tabindex="-1" role="dialog" style="display: block">
   <div class="modal-dialog cascading-modal" role="document">
     <!--Content-->
     <div class="modal-content">
@@ -28,7 +30,7 @@
               <div class="md-form form-sm">
                 <i class="fa fa-envelope prefix"></i>
                 <input type="text" id="form2" class="form-control">
-                <label for="form2">Your email</label>
+                <label for="form2">{{ $id }}</label>
               </div>
 
               <div class="md-form form-sm">
@@ -101,3 +103,5 @@
     <!--/.Content-->
   </div>
 </div>
+
+@endsection

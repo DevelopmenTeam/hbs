@@ -4,8 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App;
+use Illuminate\Support\Facades\View;
 
 class HBSController extends Controller {
+
   public function index() {
     if (!App::environment('local')) {
       if (Https::https()) {
@@ -21,5 +23,8 @@ class HBSController extends Controller {
   public function Modal(Request $request) {
     $serviceID = $request->input('serviceID');
     return $serviceID;
+  }
+  public function ModalShow($id) {
+    return view('modals.services_modal', ['id'=> $id]);
   }
 }
