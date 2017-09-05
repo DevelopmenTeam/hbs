@@ -3,13 +3,18 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App;
 
 class HBSController extends Controller {
   public function index() {
-    if (Https::https() === TRUE) {
-      return view('layouts.base');
+    if (!App::environment('local')) {
+      if (Https::https()) {
+        return view('layouts.base');
+      } else {
+        return redirect('https://hbs.magma-soft.at/index.php');
+      }
     } else {
-      return redirect('https://hbs.magma-soft.at/index.php');
+      return view('layouts.base');
     }
   }
 
