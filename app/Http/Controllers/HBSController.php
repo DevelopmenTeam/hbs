@@ -21,7 +21,12 @@ class HBSController extends Controller {
   }
 
   public function Modal(Request $request) {
-    $item = config('services_hbs.es.items.'.$request->input('serviceID'));
+    if($request->input('type') == 'service'){
+      $item = config('services_hbs.es.items.'.$request->input('id'));
+    }
+    else{
+      $item = config('team_hbs.es.items.'.$request->input('id'));
+    }
     return json_encode($item, JSON_PRETTY_PRINT);
   }
 }

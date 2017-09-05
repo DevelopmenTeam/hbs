@@ -18,7 +18,7 @@
                 <p>{{ $item['mini-description'] }}</p>
               </div>
               <div class="card-footer">
-                <input type="hidden" value="{{ $key }}"/>
+                <input type="hidden" value="{{ $key }},service"/>
                 @if(!empty($item['mini-description']))
                   <a href="#details" data-toggle="modal" data-target="#services_modal"
                      class="btn btn-rounded btn-hbs2 btn-hbs-services btn-sm">

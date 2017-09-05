@@ -54,11 +54,6 @@
 
 @include('pages.es.contact', [])
 
-<!-- Sub content -->
-{{--@yield('modal')--}}
-
-
-
 {{--<div class="container">--}}
 
 {{--<!-- Section: About -->--}}

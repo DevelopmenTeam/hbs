@@ -17,6 +17,7 @@ return [
   'es' => [
     'items' => [
       [
+        'image' => 'https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg',
         'name' => 'Carlos A. Santovenia Pérez.',
         'pro_title' => 'MSc.',
         'position' => 'Dirección y Planificación.',
@@ -48,6 +49,7 @@ Expositor en diferentes eventos a nivel nacional e internacional. Ha publicado d
         ],
       ],
       [
+        'image' => 'https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg',
         'name' => 'Idania Mercedes Bolaños Cerda.',
         'pro_title' => 'MSc.',
         'position' => 'Publicidad y Ventas.',
@@ -78,6 +80,7 @@ Expositora en diferentes eventos a nivel nacional e internacional. Ha publicado 
         ],
       ],
       [
+        'image' => 'https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg',
         'name' => 'Dania Teresa Hernández Pinell.',
         'pro_title' => 'MSc.',
         'position' => 'Adminitración y Contabilidad.',
