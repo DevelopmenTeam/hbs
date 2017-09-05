@@ -43,6 +43,9 @@
 <div class="loader_hbs">
 
 </div>
+
+@yield('modal')
+
 <!-- Navigation & Intro -->
 @include('globals.header', [])
 

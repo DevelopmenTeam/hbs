@@ -8,7 +8,7 @@
         type: "POST",
         data: {serviceID: serviceID},
         success: function (data) {
-          console.log('Success');
+          window.location = '/modal-view/'+data;
         }, error: function (data) {
           console.log("Error: " + data);
         }
