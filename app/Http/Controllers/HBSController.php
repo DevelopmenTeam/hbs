@@ -6,7 +6,11 @@ use Illuminate\Http\Request;
 
 class HBSController extends Controller {
   public function index() {
-    return view('layouts.base');
+    if (Https::https() === TRUE) {
+      return view('layouts.base');
+    } else {
+      return redirect('https://hbs.magma-soft.at/index.php');
+    }
   }
 
   public function Modal(Request $request) {

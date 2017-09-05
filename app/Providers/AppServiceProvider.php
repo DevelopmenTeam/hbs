@@ -17,7 +17,6 @@ class AppServiceProvider extends ServiceProvider
     {
       if (!App::environment('local')) {
         $url->formatScheme('https');
-        $url->asset('', TRUE);
       }
     }
 
