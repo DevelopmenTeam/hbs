@@ -35,12 +35,4 @@
   </div>
 </div>
 
-{{--@php--}}
-  {{--dd($_REQUEST['key']);--}}
-{{--@endphp--}}
-
 {{--@include('modals.services_modal', ['item' => config('services_hbs.es.items')]);--}}
-
-{{--<div class="progress primary-color-dark">--}}
-  {{--<div class="indeterminate"></div>--}}
-{{--</div>--}}

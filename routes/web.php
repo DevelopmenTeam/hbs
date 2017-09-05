@@ -13,7 +13,7 @@
 
 Route::get('/', "HBSController@index");
 Route::post('/modal', "HBSController@Modal");
-Route::get('/modal-show/{id}', "HBSController@ModalShow");
+Route::get('/service/{id}', "HBSController@ModalShow");
 
 //Auth::routes();
 
