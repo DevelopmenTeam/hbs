@@ -1,4 +1,5 @@
 @extends('layouts.base')
+
 @section('modal')
 <div class="modal fade show modal--opacity" data-wow-delay="0.4s" id="services_modal" tabindex="-1" role="dialog" style="display: block">
   <div class="modal-dialog cascading-modal" role="document">
