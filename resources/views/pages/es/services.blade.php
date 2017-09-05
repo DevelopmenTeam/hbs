@@ -20,7 +20,7 @@
                 {{--@endif--}}
               </div>
               <div class="card-footer">
-                <input type="hidden" value="{{ $key }}"/>
+                <input type="hidden"aria-rowindex="0" class="key_value" value="{{ $key }}"/>
                 <a href="#details" data-toggle="modal" data-target="#services_modal" class="btn btn-rounded btn-hbs2 btn-hbs-services btn-sm">
                   <i class="fa fa-clone left"></i>
                   Leer m&aacute;s
