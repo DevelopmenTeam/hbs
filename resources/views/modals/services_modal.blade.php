@@ -1,20 +1,20 @@
-@extends('layouts.base')
+{{--@extends('layouts.base')--}}
 
-@section('modal')
+{{--@section('modal')--}}
 
-  @php
-    $item = config('services_hbs.es.items.'.$id);
-  @endphp
-  <div class="modal fade show modal--opacity" data-wow-delay="0.4s" id="services_modal" tabindex="-1" role="dialog"
-       style="display: block">
+  {{--@php--}}
+    {{--$item = config('services_hbs.es.items.'.$id);--}}
+  {{--@endphp--}}
+  <div class="modal fade modal--opacity" data-wow-delay="0.4s" id="services_modal" tabindex="-1" role="dialog">
     <div class="modal-dialog cascading-modal" role="document">
       <div class="modal-content">
         <div class="modal-c-tabs">
           <ul class="nav nav-tabs tabs-2 light-blue darken-3" role="tablist">
             <li class="nav-item waves-effect waves-light">
-              <a class="nav-link active" data-toggle="tab" href="#panel17" role="tab"><i
+              <a class="nav-link active" id="title_service" data-toggle="tab" href="#panel17" role="tab"><i
                   class="fa fa-certificate mr-1"></i>
-                {{ $item['name'] }}</a>
+                <span></span>
+              </a>
             </li>
           </ul>
           <div class="tab-content">
@@ -22,12 +22,12 @@
               <div class="modal-body mb-1">
                 <div class="md-form form-sm">
                   <div class="view overlay hm-white-slight">
-                    <img src="{{ asset($item['image']) }}" alt="{{ $item['name'] }}" class="img-responsive" height="150px" width="150px">
+                    <img src="" alt="" class="img-responsive" height="150px" width="150px">
                   </div>
                 </div>
 
                 <div class="md-form form-sm">
-                  <p>{{ $item['description'] }}</p>
+                  <p></p>
                 </div>
               </div>
               <div class="modal-footer">
@@ -44,4 +44,4 @@
 
   {{-- btn-outline-info waves-effect ml-auto--}}
 
-@endsection
+{{--@endsection--}}

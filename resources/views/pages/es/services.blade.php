@@ -15,16 +15,17 @@
 
               <div class="card-body hbs-services-card-body-match-height">
                 <h4>{{ $item['name'] }}</h4>
-                {{--@if(!empty($item['mini-description']))--}}
                 <p>{{ $item['mini-description'] }}</p>
-                {{--@endif--}}
               </div>
               <div class="card-footer">
                 <input type="hidden" value="{{ $key }}"/>
-                <a href="#details" data-toggle="modal" data-target="#services_modal" class="btn btn-rounded btn-hbs2 btn-hbs-services btn-sm">
-                  <i class="fa fa-clone left"></i>
-                  Leer m&aacute;s
-                </a>
+                @if(!empty($item['mini-description']))
+                  <a href="#details" data-toggle="modal" data-target="#services_modal"
+                     class="btn btn-rounded btn-hbs2 btn-hbs-services btn-sm">
+                    <i class="fa fa-clone left"></i>
+                    Leer m&aacute;s
+                  </a>
+                @endif
               </div>
             </div>
           </div>
@@ -35,4 +36,4 @@
   </div>
 </div>
 
-{{--@include('modals.services_modal', ['item' => config('services_hbs.es.items')]);--}}
+@include('modals.services_modal', []);

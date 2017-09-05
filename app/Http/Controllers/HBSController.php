@@ -21,10 +21,7 @@ class HBSController extends Controller {
   }
 
   public function Modal(Request $request) {
-    $serviceID = $request->input('serviceID');
-    return $serviceID;
-  }
-  public function ModalShow($id) {
-    return view('modals.services_modal', ['id'=> $id]);
+    $item = config('services_hbs.es.items.'.$request->input('serviceID'));
+    return json_encode($item, JSON_PRETTY_PRINT);
   }
 }
