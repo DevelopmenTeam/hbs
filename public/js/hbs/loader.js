@@ -24,7 +24,8 @@
       $headerColor.addClass('navbar--color');
       $letterColor.css({'color':'white'});
     }
-    if(scrollTop > ($('div.wow.fadeInDown').height()/2)){
+    if(scrollTop > ($('div.wow.fadeInDown').height()/2)+
+      ($('div.wow.fadeInDown').height()/5)){
       $('a.navbar-brand img').fadeIn('slow')
     }else{
       $('a.navbar-brand img').fadeOut('slow');
