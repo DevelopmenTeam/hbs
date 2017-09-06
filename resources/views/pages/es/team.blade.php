@@ -39,4 +39,4 @@
   </section>
 </div>
 
-@include('modals.team_modal', []);
+@include('modals.team_modal', [])
