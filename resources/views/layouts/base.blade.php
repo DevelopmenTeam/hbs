@@ -50,9 +50,29 @@
 <!-- Main content -->
 @include('pages.es.services', [])
 
+@include('globals.middle', [])
+
 @include('pages.es.team', [])
 
 @include('pages.es.contact', [])
+
+<!-- Footer -->
+@include('globals.footer', [])
+
+<!-- JQuery -->
+{!! Html::script('js/lib/jquery-3.1.1.min.js') !!}
+{!! Html::script('js/lib/popper.min.js') !!}
+{!! Html::script('js/lib/bootstrap.min.js') !!}
+{!! Html::script('js/lib/mdb.min.js') !!}
+{!! Html::script('js/lib/matchHeight.js') !!}
+{!! Html::script('js/hbs/loader.js') !!}
+{!! Html::script('js/hbs/match_height.js') !!}
+{!! Html::script('js/hbs/modal.js') !!}
+
+</body>
+
+</html>
+
 
 {{--<div class="container">--}}
 
@@ -196,15 +216,8 @@
 
 {{--</div>--}}
 
-{{--<!-- Streak -->--}}
-{{--<div class="streak streak-photo streak-md hm-green-strong-2" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Things/full%20page/img%20%287%29.jpg');">--}}
-{{--<div class="flex-center mask pattern-1">--}}
-{{--<div class="text-center white-text">--}}
-{{--<h2 class="h2-responsive mb-5"><i class="fa fa-quote-left" aria-hidden="true"></i> Creativity requires the courage to let go of certainties <i class="fa fa-quote-right" aria-hidden="true"></i></h2>--}}
-{{--<h5 class="text-center font-italic wow fadeIn" data-wow-delay="0.2s">~ Erich Fromm</h5>--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--</div>--}}
+<!-- Streak -->
+
 <!-- Streak -->
 
 {{--<div class="container">--}}
@@ -477,22 +490,3 @@
 {{--<!-- Section: Contact v.2 -->--}}
 
 {{--</div>--}}
-<!-- Main content -->
-
-<!-- Footer -->
-@include('globals.footer', [])
-<!-- Footer -->
-
-<!-- JQuery -->
-{!! Html::script('js/lib/jquery-3.1.1.min.js') !!}
-{!! Html::script('js/lib/popper.min.js') !!}
-{!! Html::script('js/lib/bootstrap.min.js') !!}
-{!! Html::script('js/lib/mdb.min.js') !!}
-{!! Html::script('js/lib/matchHeight.js') !!}
-{!! Html::script('js/hbs/loader.js') !!}
-{!! Html::script('js/hbs/match_height.js') !!}
-{!! Html::script('js/hbs/modal.js') !!}
-
-</body>
-
-</html>

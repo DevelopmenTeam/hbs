@@ -4,7 +4,6 @@
       <h3 class="text-center mb-5 mt-5 pt-5 font-up font-bold wow fadeIn" data-wow-delay="0.2s">
         Servicios
       </h3>
-
       <div class="row text-center smooth-scroll">
         @foreach(config('services_hbs.es.items') as $key => $item)
           <div class="col-lg-3 col-md-3 mb-1 wow fadeIn" data-wow-delay="0.4s">
@@ -30,10 +29,9 @@
             </div>
           </div>
         @endforeach
-
       </div>
     </section>
   </div>
 </div>
 
-@include('modals.services_modal', []);
+@include('modals.services_modal', [])

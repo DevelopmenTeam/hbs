@@ -20,12 +20,12 @@
             $('.modal h6.indigo-text').html(data.position);
             $('.modal ul#academic_studies').html('');
             $.each(data.academic_studies, function (k,v) {
-              $('.modal ul#academic_studies').append('<li>'+ v +'</li>')
+              $('.modal ul#academic_studies').append('<li>'+ v +'</li>');
             });
             $('div.modal-body div.md-form p').html(data.experience);
           }
         }, error: function (data) {
-          console.log("Error: " + data);
+          console.log("Error: " + JSON.parse(data));
         }
       });
     }
