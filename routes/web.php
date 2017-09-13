@@ -13,6 +13,11 @@
 
 Route::get('/', "HBSController@index");
 Route::post('/modal', "HBSController@Modal");
+Route::post('/sendemail', "HBSController@sendEmail");
+
+Route::get('/mailable', function () {
+  return new App\Mail\HbsContact();
+});
 
 //Auth::routes();
 

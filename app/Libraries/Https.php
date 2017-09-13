@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Libraries;
 
 class Https {
     public static function https() {

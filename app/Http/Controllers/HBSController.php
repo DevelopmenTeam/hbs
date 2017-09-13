@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Libraries\Https;
+use App\Mail\HbsContact;
 use Illuminate\Http\Request;
 use App;
-use Illuminate\Support\Facades\View;
+use Illuminate\Support\Facades\Mail;
 
 class HBSController extends Controller {
 
@@ -28,5 +30,17 @@ class HBSController extends Controller {
       $item = config('team_hbs.es.items.'.$request->input('id'));
     }
     return json_encode($item, JSON_PRETTY_PRINT);
+  }
+
+  public function sendEmail(Request $request) {
+    $result = [];
+    if(!empty($request->input('email'))){
+      Mail::to('edgewl2@gmail.com')->send(new HbsContact($request));
+      $result = ['result' => 'completo jeje'];
+    }
+    else{
+      $result = ['result' => 'erróneo jeje'];
+    }
+    return json_encode($result, JSON_PRETTY_PRINT);
   }
 }

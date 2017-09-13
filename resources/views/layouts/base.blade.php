@@ -68,6 +68,7 @@
 {!! Html::script('js/hbs/loader.js') !!}
 {!! Html::script('js/hbs/match_height.js') !!}
 {!! Html::script('js/hbs/modal.js') !!}
+{!! Html::script('js/hbs/email.js') !!}
 
 </body>
 

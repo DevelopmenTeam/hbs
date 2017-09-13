@@ -20,7 +20,7 @@
             <div class="col-md-6">
               <div class="md-form">
                 <div class="md-form">
-                  <input type="text" id="form41" class="form-control">
+                  <input type="text" id="contact-name" class="form-control">
                   <label for="form41" class="">Nombre:</label>
                 </div>
               </div>
@@ -30,7 +30,7 @@
             <div class="col-md-6">
               <div class="md-form">
                 <div class="md-form">
-                  <input type="text" id="form52" class="form-control">
+                  <input type="email" id="contact-email" class="form-control required">
                   <label for="form52" class="">Email:</label>
                 </div>
               </div>
@@ -42,7 +42,7 @@
           <div class="row">
             <div class="col-md-12">
               <div class="md-form">
-                <input type="text" id="form51" class="form-control">
+                <input type="text" id="contact-subject" class="form-control">
                 <label for="form51" class="">Asunto:</label>
               </div>
             </div>
@@ -55,7 +55,7 @@
             <div class="col-md-12">
 
               <div class="md-form">
-                <textarea type="text" id="form76" class="md-textarea"></textarea>
+                <textarea type="text" id="contact-message" class="md-textarea"></textarea>
                 <label for="form76">Mensaje:</label>
               </div>
 
@@ -65,7 +65,7 @@
         </form>
 
         <div class="center-on-small-only mb-5">
-          <a class="btn btn-rounded btn-light-green-2">Enviar</a>
+          <a class="btn btn-contact-email btn-rounded btn-light-green-2">Enviar</a>
         </div>
       </div>
       <!-- Grid column -->
