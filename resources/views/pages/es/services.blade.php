@@ -34,4 +34,4 @@
   </div>
 </div>
 
-@include('modals.services_modal', [])
+@include('modals.services', [])

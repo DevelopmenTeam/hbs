@@ -13,7 +13,8 @@ return [
     |
     */
 
-    'name' => env('HBS Consultores Turísticos'),
+//    'name' => env('APP_NAME', 'HBS Consultores Turísticos'),
+    'name' => 'HBS Consultores Turísticos S.A',
 
     /*
     |--------------------------------------------------------------------------
