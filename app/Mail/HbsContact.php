@@ -38,6 +38,7 @@ class HbsContact extends Mailable {
           'message' => $this->request->input('message')
         ])
         ->from($this->request->input('email'), $this->request->input('name'))
+        ->replyTo('consultoreshbs@gmail.com', config('app.name'))
         ->subject($this->request->input('subject'));
     }
     else {
