@@ -15,8 +15,8 @@
   <meta property="title" content="HBS Consultores Turisticos">
   <meta property="description" content="HBS Consultores Turisticos">
   <meta property="image" content="{{ asset('assets/media/logo/header_hbs.png') }}">
-  <meta property="url" content="http://hbs.magma-soft.at/index.php">
-  <meta property="site_name" content="http://hbs.magma-soft.at/index.php">
+  <meta property="url" content="https://hbs.magma-soft.at/index.php">
+  <meta property="site_name" content="https://hbs.magma-soft.at/index.php">
   <meta name="author" content="Luis Solórzano">
   <meta name="author" content="Gerardo Hernández">
   <meta name="author" content="Juan Santovenia">
