@@ -1786,6 +1786,8 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
 .bq-danger .bq-title { color: #ff3547 }
 .bq-success { border-left: 3px solid #00c851 }
 .bq-success .bq-title { color: #00c851 }
+
+/*
 @font-face {
 	font-family: Roboto;
 	src: local(Roboto Thin), url(../font/roboto/Roboto-Thin.eot);
@@ -1816,6 +1818,8 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
 	src: url(../font/roboto/Roboto-Bold.eot?#iefix) format("embedded-opentype"), url(../font/roboto/Roboto-Bold.woff2) format("woff2"), url(../font/roboto/Roboto-Bold.woff) format("woff"), url(../font/roboto/Roboto-Bold.ttf) format("truetype");
 	font-weight: 700
 }
+*/
+
 body { font-family: Roboto, sans-serif; font-weight: 300 }
 h1, h2, h3, h4, h5, h6 { font-weight: 300 }
 .h1-responsive, .section-heading h1 { font-size: 150% }
@@ -2393,7 +2397,7 @@ body.scrollable { overflow-y: auto }
 .hm-zoom:hover .mask, .overlay:hover .mask { opacity: 1 }
 .hm-zoom:hover img { -webkit-transform: scale(1.1); -ms-transform: scale(1.1); transform: scale(1.1) }
 .overlay .mask { opacity: 0; -webkit-transition: all .4s ease-in-out; transition: all .4s ease-in-out }
-.pattern-1 { background: url(../img/overlays/01.png) }
+/*.pattern-1 { background: url(../img/overlays/01.png) }
 .pattern-2 { background: url(../img/overlays/02.png) }
 .pattern-3 { background: url(../img/overlays/03.png) }
 .pattern-4 { background: url(../img/overlays/04.png) }
@@ -2401,7 +2405,7 @@ body.scrollable { overflow-y: auto }
 .pattern-6 { background: url(../img/overlays/06.png) }
 .pattern-7 { background: url(../img/overlays/07.png) }
 .pattern-8 { background: url(../img/overlays/08.png) }
-.pattern-9 { background: url(../img/overlays/09.png) }
+.pattern-9 { background: url(../img/overlays/09.png) }*/
 .hm-blue-slight .full-bg-img, .hm-blue-slight .mask { background-color: rgba(3, 169, 244, .1) }
 .hm-red-slight .full-bg-img, .hm-red-slight .mask { background-color: rgba(244, 67, 54, .1) }
 .hm-pink-slight .full-bg-img, .hm-pink-slight .mask { background-color: rgba(233, 30, 99, .1) }

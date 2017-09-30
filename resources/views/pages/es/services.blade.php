@@ -1,7 +1,7 @@
 <div class="container-fluid" id="services">
   <div class="container">
-    <section class="section mt-5 mb-5">
-      <h3 class="text-center mb-5 mt-5 pt-5 font-up font-bold wow fadeIn" data-wow-delay="0.2s">
+    <section class="section">
+      <h3 class="text-center mb-5 mt-5 font-up font-bold wow fadeIn" data-wow-delay="0.2s">
         Servicios
       </h3>
       <div class="row text-center smooth-scroll">

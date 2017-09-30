@@ -1,5 +1,5 @@
 <div class="modal fade modal--opacity" data-wow-delay="0.4s" id="services_modal" tabindex="-1" role="dialog">
-  <div class="modal-dialog cascading-modal" role="document">
+  <div class="modal-dialog cascading-modal" role="document" style="margin-top: 5%;">
     <div class="modal-content">
       <div class="modal-c-tabs">
         <ul class="nav nav-tabs tabs-2 light-blue darken-3" role="tablist">
@@ -23,9 +23,9 @@
                 <p></p>
               </div>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger-2 btn-sm close-service"
-                      data-dismiss="modal"><i class="fa fa-close" style="color: white"></i>
+            <div class="modal-footer" style="padding: 0px;border: 1px transparent;">
+              <button type="button" class="btn btn-danger-2 btn-sm close-service" data-dismiss="modal">
+                Cerrar
               </button>
             </div>
           </div>

@@ -17,10 +17,10 @@
           else{
             $('ul li a#name_teammer span').html(data.pro_title +' '+ data.name);
             $('.modal div.avatar img').attr({'src': data.image, 'alt': data.name});
-            $('.modal h6.indigo-text').html(data.position);
+            $('.modal h4.profession').html(data.position);
             $('.modal ul#academic_studies').html('');
             $.each(data.academic_studies, function (k,v) {
-              $('.modal ul#academic_studies').append('<li>'+ v +'</li>');
+              $('.modal ul#academic_studies').append('<li><i class="fa fa-certificate"></i> <span>'+ v +'</span></li>');
             });
             $('div.modal-body div.md-form p').html(data.experience);
           }

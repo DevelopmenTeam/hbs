@@ -15,7 +15,8 @@ class HBSController extends Controller {
       if (Https::https()) {
         return view('layouts.base');
       } else {
-        return redirect('https://hbs.magma-soft.at/index.php');
+        //return redirect('https://hbs.magma-soft.at/index.php');
+				return view('layouts.base');
       }
     } else {
       return view('layouts.base');
@@ -35,7 +36,7 @@ class HBSController extends Controller {
   public function sendEmail(Request $request) {
     $result = [];
     if(!empty($request->input('email'))){
-      Mail::to('edgewl2@gmail.com')->send(new HbsContact($request));
+      Mail::to('luisnic20@gmail.com')->send(new HbsContact($request));
       $result = ['result' => 'completo jeje'];
     }
     else{

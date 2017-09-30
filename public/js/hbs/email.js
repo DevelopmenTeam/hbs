@@ -14,15 +14,16 @@
         },
         success: function (jdata) {
           var data = JSON.parse(jdata);
-          alert(data.result);
+         // alert(data.result);
         },
         error: function (jdata) {
           var data = JSON.parse(jdata);
-          alert(data.result);
+         // alert(data.result);
         }
       });
     }
   };
+
   $('.btn-contact-email').on('click', function (event) {
     var values = {
       name:$('#contact-name').val(),

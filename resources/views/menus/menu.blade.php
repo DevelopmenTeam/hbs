@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="#">
-      <img src="{{ asset("assets/media/logo/HBS-Home.png") }}" width="70px" height="26px">
+      <img src="{{ asset("assets/media/logo/HBS-Home.png") }}" width="70px" height="26px"> Consultores Turisticos
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
