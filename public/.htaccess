@@ -16,8 +16,8 @@
     RewriteRule ^ index.php [L]
 
     # Handle Authorization Header
-    RewriteCond %{HTTP:Authorization} ^(.+)$
-    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-    Redirect http://hbs.magma-soft.at/index.php https://hbs.magma-soft.at/index.php
+    # RewriteCond %{HTTP:Authorization} ^(.+)$
+    #RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+    #Redirect http://hbs.magma-soft.at/index.php https://hbs.magma-soft.at/index.php
 
 </IfModule>
